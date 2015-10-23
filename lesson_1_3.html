@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="lesson_1_3.css">
+		<title>Notes on Lesson 1.3</title>
+	</head>
+	<body>
+		<!-- Notes on Lesson 1.3 -->
+		<div>
+			<h1 class="lesson">Lesson 1.3</h1>
+		</div>
+		<div>
+			<h2 class="section">Adding CSS Style and HTML Structure</h2>
+		</div>
+			<p>CSS = Cascading Style Sheets. They use inheritance (parent->child relationships).</p>
+		<p>Descendant elements inherit from any higher-up (ancestor) element which encloses them.</p>
+		<p>Added a DOCTYPE to the sample app.html; added a link in the &lt;head&gt; to the style.css file.</p>
+		<p>CSS - first write selector. Use element such as &lt;h1&gt;, or a class - element {}; .class {}.</p>
+		<p>Rules have declarations & properties; properties have values.</p>
+		<p>
+		<h4>CSS properties:</h4>
+		<ul>
+			<li>font-style: normal; italic; oblique</li>
+			<li>font-weight: normal; bold; or, relative to parent, lighter; bolder; or numeric values 100, 200, 300, 400, 500, 600, 700, 800, 900.</li>
+			<li>See documentation for huge list.</li>
+		</ul>
+		<p><h4>Ways to use CSS in an HTML file:</h4>
+		<ul>
+			<li>Use a &lt;style&gt; element in the &lt;head&gt;</li>
+			<li>Link to a separate .css file</li>
+			<li>Use &lt;link&gt; tag (void) with <code>rel="stylesheet"</code> and <code>href="filename.css"</code>.</li>
+			<li>Write style inline in the HTML. Messy! Deprecated.</li>
+		</ul>
+		<h4><code>divs</code> and <code>spans</code>:</h4>
+		<p><code>divs</code> are used to logically organize code; or to group items together so that the whole block can be styled together. <code>spans</code> are used inline to style bits of text.</p>
+		<h4><code>ids</code> and <code>classes</code>:</h4>
+		<p><code>ids</code> are used to <em>uniquely</em> identify elements. Too many will slow a browser down. <br>
+		You can use anchor elements to link directly to <code>ids</code>.
+		(See Stage 1 Webcast on divs, spans, ids, classes.)</p>
+		<p><code>classes</code> style groups of elements together. <code>classes</code> are more efficient than <code>ids</code>.</p>
+	<h2>Using Semantic Tags</h2>
+	<p>Headings, etc.</p>
+	<h2>The Box Model</h2>
+	<p>
+		<ul>
+			<li>Content</li>
+			<li>Padding</li>
+			<li>Border</li>
+			<li>Margin</li>
+		</ul>
+		<p>Size of element == sum of border, padding, content elements</p>
+	<p>Sizes can be percentages or pixels.</p>
+	<p><code>display: flex;</code> overrides <code>divs</code> spanning the entire width of a page; lets boxes appear next to each other.</p>
+	<h2>Some Headline Here</h2>
+		<ol>
+			<li>Code, Test, Refine</li>
+			<li>Boxify for structure (natural boxes)</li>
+			<li>Look for repeated stuff</li>
+			<li>Write HTML</li>
+			<li>Apply styles biggest-to-smallest</li>
+		</ol>
+	<p>The <a href="http://www.w3c.org">World Wide Web Consortium</a> has <a href="https://validator.w3.org/">HTML</a> and <a href="https://jigsaw.w3.org/css-validator/">CSS</a> validators.</p>
+	</body>
+</html>
+	
