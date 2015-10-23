@@ -1,0 +1,47 @@
+/* commenting out the outlining
+*{
+	outline: 1px solid red !important;
+}
+*/
+
+element.style {
+
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #A9E9C0;
+}
+
+.lesson {
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+}
+
+.section {
+	display: flex;
+}
+
+a:link {
+    color: #C97D7D;
+}
+
+a:visited {
+    color: #51D1D6;
+}
+
+a:hover {
+    color: #90C3D4;
+}
+
+a:active {
+    color: #2DA0F4;
+}
